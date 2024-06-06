@@ -144,7 +144,8 @@ LEFT JOIN Karyawan AS Supervisor ON Supervisor.nik = Karyawan.sup_nik
 LEFT JOIN Departemen ON Departemen.id_dept = Karyawan.id_dept;
 ```
 ***Output :***
-GAMBAR
+![image](https://github.com/RadityaTansyLizara/PRAKTIKUM6/assets/147571863/e6be3bf1-87af-4989-964f-55b9986faeaf)
+
 
 ## Menampilkan Daftar Karyawan Yang Bekerja Pada Project A
 ```
@@ -155,7 +156,8 @@ JOIN Project ON Project.id_proj = Project_detail.id_proj
 WHERE Project.nama = 'A';
 ```
 ***Output :***
-GAMBAR
+![image](https://github.com/RadityaTansyLizara/PRAKTIKUM6/assets/147571863/e89d8af6-7af6-4a95-9d4b-905b587be306)
+
 
 # Soal Latihan Praktikum
 
