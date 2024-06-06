@@ -172,7 +172,7 @@ INNER JOIN Departemen ON Karyawan.id_dept = Departemen.id_dept
 GROUP BY Project.id_proj;
 ```
 ***Output :***
-GAMBAR
+![image](https://github.com/RadityaTansyLizara/PRAKTIKUM6/assets/147571863/f755f80b-e1f7-46ed-ae6a-f72bf93888e0)
 
 ## 2. Jumlah Karyawan Tiap Departemen Yang Bekerja Pada Tiap-tiap Project.
 
@@ -185,8 +185,7 @@ INNER JOIN Departemen ON Karyawan.id_dept = Departemen.id_dept
 GROUP BY Project.id_proj, Departemen.id_dept;
 ```
 ***Output :***
-![image](https://github.com/RadityaTansyLizara/PRAKTIKUM6/assets/147571863/f755f80b-e1f7-46ed-ae6a-f72bf93888e0)
-
+![image](https://github.com/RadityaTansyLizara/PRAKTIKUM6/assets/147571863/717c613f-e27d-484f-b08b-55f55c00dbaa)
 
 ## 3. Ada Berapa Project Yang Sedang Dikerjakan Oleh Departemen ***RnD***? (ket: project berjalan adalah yang statusnya 1).
 
