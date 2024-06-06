@@ -185,7 +185,8 @@ INNER JOIN Departemen ON Karyawan.id_dept = Departemen.id_dept
 GROUP BY Project.id_proj, Departemen.id_dept;
 ```
 ***Output :***
-GAMBAR
+![image](https://github.com/RadityaTansyLizara/PRAKTIKUM6/assets/147571863/f755f80b-e1f7-46ed-ae6a-f72bf93888e0)
+
 
 ## 3. Ada Berapa Project Yang Sedang Dikerjakan Oleh Departemen ***RnD***? (ket: project berjalan adalah yang statusnya 1).
 
@@ -198,7 +199,8 @@ INNER JOIN Departemen ON Karyawan.id_dept = Departemen.id_dept
 WHERE Departemen.nama = 'RnD' AND Project.status = 1;
 ```
 ***Output :***
-GAMBAR
+![image](https://github.com/RadityaTansyLizara/PRAKTIKUM6/assets/147571863/1f7b1951-4efe-4be9-8093-350d97374bbf)
+
 
 ## 4. Berapa banyak Project yang sedang dikerjakan oleh Ari ?
 
@@ -209,7 +211,8 @@ INNER JOIN Karyawan ON Project_detail.nik = Karyawan.nik
 WHERE Karyawan.nama = 'Ari' AND Project_detail.id_proj IN (SELECT id_proj FROM Project WHERE status = 1);
 ```
 ***Output :***
-GAMBAR
+![image](https://github.com/RadityaTansyLizara/PRAKTIKUM6/assets/147571863/c15da592-6a8c-41b3-afb5-43653ad807ac)
+
 
 ## 5. Siapa Saja Yang Mengerjakan Project B ?
 
@@ -220,4 +223,5 @@ INNER JOIN Karyawan ON Project_detail.nik = Karyawan.nik
 WHERE Project_detail.id_proj IN (SELECT id_proj FROM Project WHERE nama = 'B');
 ```
 ***Output :***
-GAMBAR
+![image](https://github.com/RadityaTansyLizara/PRAKTIKUM6/assets/147571863/85b4f093-5df2-4be0-885e-eea09592af5b)
+
