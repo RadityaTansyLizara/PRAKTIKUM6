@@ -21,7 +21,8 @@ SELECT * FROM Perusahaan;
 ```
 
 ***Output :***
-GAMBAR
+![image](https://github.com/RadityaTansyLizara/PRAKTIKUM6/assets/147571863/547be146-1c7e-45f6-a48b-b04000b8c8ef)
+
 
 ***Query MySQL Pada Tabel Departemen***
 
@@ -42,7 +43,8 @@ SELECT * FROM Departemen;
 ```
 
 ***Output :***
-GAMBAR
+![image](https://github.com/RadityaTansyLizara/PRAKTIKUM6/assets/147571863/ac183d70-d5c1-4fbd-b5b2-e7587e653160)
+
 
 ***Query MySQL Pada Tabel Karyawan***
 
@@ -67,7 +69,8 @@ SELECT * FROM Karyawan;
 ```
 
 ***Output :***
-GAMBAR
+![image](https://github.com/RadityaTansyLizara/PRAKTIKUM6/assets/147571863/f6fb3ed8-5877-48ea-8825-b36b4aa1c704)
+
 
 ***Query MySQL Pada Tabel Project***
 
@@ -88,9 +91,10 @@ SELECT * FROM Project;
 ```
 
 ***Output :***
-GAMBAR
+![image](https://github.com/RadityaTansyLizara/PRAKTIKUM6/assets/147571863/546aecf5-1d36-4e4d-903f-60a077120d45)
 
-***Query MySQL Pada Tabel Project Deatil***
+
+***Query MySQL Pada Tabel Project Detail***
 
 ```
 CREATE TABLE Project_detail(
@@ -116,7 +120,8 @@ SELECT * FROM Project_detail;
 ```
 
 ***Output :***
-GAMBAR
+![image](https://github.com/RadityaTansyLizara/PRAKTIKUM6/assets/147571863/8302aa04-1f46-435a-94b2-53783ed78825)
+
 
 ## Menampilkan Nama Manajer Tiap Departemen
 
@@ -127,7 +132,8 @@ LEFT JOIN Karyawan ON Karyawan.nik = Departemen.manajer_nik;
 ```
 
 ***Output :***
-GAMBAR
+![image](https://github.com/RadityaTansyLizara/PRAKTIKUM6/assets/147571863/6793bb24-a0d3-4f4a-bc64-9ce743f7fbe3)
+
 
 ## Menampilkan Nama Supervisor Tiap Karyawan
 
