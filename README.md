@@ -26,9 +26,8 @@ Sebuah perusahaan ingin membuat sistem untuk pengeloalaan data karyawan pada per
 Buatlah desain databasenya (ER-Diagram), beserta tabel datanya ?
 
 # PENGOLAHAN DATA KARYAWAN
-# Tabel Departement
-
 ### Di bawah ini merupakan perintah dan juga hasil yang di minta
+## Tabel Departemen
 `
 CREATE TABLE Departemen ( IDDepartemen INT PRIMARY KEY, NamaDepartemen VARCHAR(255) );
 `
