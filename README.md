@@ -28,7 +28,7 @@ Buatlah desain databasenya (ER-Diagram), beserta tabel datanya ?
 # PENGOLAHAN DATA KARYAWAN
 # Tabel Departement
 
-# Di bawah ini merupakan perintah dan juga hasil yang di minta
+### Di bawah ini merupakan perintah dan juga hasil yang di minta
 `
 CREATE TABLE Departemen ( IDDepartemen INT PRIMARY KEY, NamaDepartemen VARCHAR(255) );
 `
